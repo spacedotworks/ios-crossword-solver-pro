@@ -24,6 +24,10 @@
 		1BF812D0176D32BC005308B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF812A8176D32BB005308B0 /* Foundation.framework */; };
 		1BF812D8176D32BC005308B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BF812D6176D32BC005308B0 /* InfoPlist.strings */; };
 		1BF812DB176D32BC005308B0 /* crosswordcontextualsolverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF812DA176D32BC005308B0 /* crosswordcontextualsolverTests.m */; };
+		1BF812E6176D353E005308B0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF812E4176D353E005308B0 /* logo.png */; };
+		1BF812E7176D353E005308B0 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF812E5176D353E005308B0 /* test.jpg */; };
+		1BF812ED176D782D005308B0 /* 57ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF812EB176D782D005308B0 /* 57ios.png */; };
+		1BF812EE176D782D005308B0 /* 114ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF812EC176D782D005308B0 /* 114ios.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B8CC2FF176E4F0300E21283 /* crosswordcontextualsolver copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "crosswordcontextualsolver copy-Info.plist"; path = "/Users/reuben/Desktop/crosswordcontextualsolver/crosswordcontextualsolver copy-Info.plist"; sourceTree = "<absolute>"; };
 		1BF812A3176D32BB005308B0 /* crosswordcontextualsolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crosswordcontextualsolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF812A6176D32BB005308B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1BF812A8176D32BB005308B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +65,10 @@
 		1BF812D7176D32BC005308B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BF812D9176D32BC005308B0 /* crosswordcontextualsolverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crosswordcontextualsolverTests.h; sourceTree = "<group>"; };
 		1BF812DA176D32BC005308B0 /* crosswordcontextualsolverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crosswordcontextualsolverTests.m; sourceTree = "<group>"; };
+		1BF812E4176D353E005308B0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		1BF812E5176D353E005308B0 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		1BF812EB176D782D005308B0 /* 57ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57ios.png; sourceTree = SOURCE_ROOT; };
+		1BF812EC176D782D005308B0 /* 114ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114ios.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,7 @@
 				1BF812D3176D32BC005308B0 /* crosswordcontextualsolverTests */,
 				1BF812A5176D32BB005308B0 /* Frameworks */,
 				1BF812A4176D32BB005308B0 /* Products */,
+				1B8CC2FF176E4F0300E21283 /* crosswordcontextualsolver copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +129,10 @@
 		1BF812AC176D32BB005308B0 /* crosswordcontextualsolver */ = {
 			isa = PBXGroup;
 			children = (
+				1BF812EB176D782D005308B0 /* 57ios.png */,
+				1BF812EC176D782D005308B0 /* 114ios.png */,
+				1BF812E4176D353E005308B0 /* logo.png */,
+				1BF812E5176D353E005308B0 /* test.jpg */,
 				1BF812B5176D32BB005308B0 /* AppDelegate.h */,
 				1BF812B6176D32BB005308B0 /* AppDelegate.m */,
 				1BF812BE176D32BB005308B0 /* MainStoryboard_iPhone.storyboard */,
@@ -240,6 +254,10 @@
 				1BF812BD176D32BB005308B0 /* Default-568h@2x.png in Resources */,
 				1BF812C0176D32BB005308B0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1BF812C3176D32BB005308B0 /* MainStoryboard_iPad.storyboard in Resources */,
+				1BF812E6176D353E005308B0 /* logo.png in Resources */,
+				1BF812E7176D353E005308B0 /* test.jpg in Resources */,
+				1BF812ED176D782D005308B0 /* 57ios.png in Resources */,
+				1BF812EE176D782D005308B0 /* 114ios.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,10 +413,15 @@
 		1BF812DF176D32BC005308B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reuben Li (48CZTXSM5M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "crosswordcontextualsolver/crosswordcontextualsolver-Prefix.pch";
 				INFOPLIST_FILE = "crosswordcontextualsolver/crosswordcontextualsolver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +429,15 @@
 		1BF812E0176D32BC005308B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reuben Li (48CZTXSM5M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "crosswordcontextualsolver/crosswordcontextualsolver-Prefix.pch";
 				INFOPLIST_FILE = "crosswordcontextualsolver/crosswordcontextualsolver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -467,6 +495,7 @@
 				1BF812E0176D32BC005308B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF812E1176D32BC005308B0 /* Build configuration list for PBXNativeTarget "crosswordcontextualsolverTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +504,7 @@
 				1BF812E3176D32BC005308B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
